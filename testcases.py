@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
+
 URL = "http://13.60.232.156:3000"
 
 @pytest.fixture(scope="function")
